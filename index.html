@@ -7,11 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>Väkommen till NodeJS!</h3>
+    <h3>Välkommen till NodeJS!</h3>
     <h5>Registrera din emailadress här:</h5>
-    <form action="/create-user" method="POST">
-        <input type="text" name="create-user" placeholder="Ange emaildress" autocomplete="off" autofocus>
+    <form action="/newuser" method="POST">
+        <input type="email" name="create-user" placeholder="Ange emaildress" autocomplete="off" autofocus>
         <button type="submit">Spara</button>
     </form>
+    <div>
+        <p><a href="/admin">Länk till admin-sida</a></p>
+    </div>
 </body>
 </html>
