@@ -8,9 +8,12 @@
 </head>
 <body>
     <h3>Admin-sida</h3>
-    <form action="" method="">
-        Användarnamn<input type="text" name="admin-username" placeholder="Användarnamn" autocomplete="off" autofocus>
-        Lösenord<input type="text" name="admin-password" placeholder="Lösenord" autocomplete="off">
+    <div>
+        <p><a href="/">Tillbaka till startsida</a></p>
+    </div>
+    <form action="admin/users" method="POST">
+        Användarnamn <input type="text" name="admin-username" placeholder="Användarnamn" autocomplete="off" autofocus style="margin-bottom: 10px;"></br>
+        Lösenord <input type="text" name="admin-password" placeholder="Lösenord" autocomplete="off" style="margin-bottom: 10px;"></br>
         <button type="submit">Logga in</button>
     </form>
 </body>
